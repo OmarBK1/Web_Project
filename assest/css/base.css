@@ -4,15 +4,16 @@
     padding: 0;
 }
 :root{
---maincolor:#009999;
---mainFoint:"Poppins", sans-serif;
---subFoint:"Inter", sans-serif;
+--subcolor:#009999;
+--mainFont:"Poppins", sans-serif;
+--subFont:"Inter", sans-serif;
+--maincolor:black;
 
 }
 
 a{
 text-decoration: none;
-
+color: var(--maincolor);
 }
 ul{
 list-style-type: none;
