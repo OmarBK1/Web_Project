@@ -2,33 +2,73 @@
 header{
  font-family:var( --mainFont);
  padding: 10px 10px;
- box-shadow: 1px -1px 20px 0px var(--subcolor);;
- .row div{
+ box-shadow: 1px -1px 20px 0px var(--subcolor);}
+header .row div{
 width: 30%;
 text-align: center;
 
  }
 
-.logo  img {
+header .logo  img {
 width: 20%;
 }
+header .menubotton{
+display: none;
 
-
- .navbar ul{
+}
+ header .navbar ul{
 display: flex;
 justify-content: space-between;
-flex-wrap: wrap;
-gap: 10px;
 
-a:hover{
+gap: 10px;
+ }
+ header .navbar ul a:hover{
 font-weight: 600;
 }
- }
-.headericon{
+
+ header .headericon{
 display: flex;
 justify-content: center;
  gap:10px;
  }
-
+@media screen and (max-width:987px) {
+header .container{
+width: calc( 100% - 40px);
 
 }
+
+header .menubotton{
+    display: block;
+    order:1;
+
+}
+ .navbar ,.navbar ul{
+    display: none;
+ }   
+
+}
+@media screen and (max-width:600px) {
+    header{
+       padding: 5px 5px; 
+    }
+header .container{
+width: 100%;
+
+}
+header .logo  img {
+width: 30%;
+}
+
+}
+@media screen and (max-width:335px) {
+    header{
+        padding: 10px 10px;
+    }
+   header .headericon{
+        display: none;
+    }
+    header .logo  img {
+width: 50%;
+}
+}
+
