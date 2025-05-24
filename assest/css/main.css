@@ -289,7 +289,7 @@ width: 50%;
 
 /* WebKit browsers (Chrome, Edge, Safari) */
 .cards-container::-webkit-scrollbar {
-  height: 0.3125em;
+  height: 0.6em;
 }
 
 .cards-container::-webkit-scrollbar-track {
