@@ -73,9 +73,26 @@ width: 50%;
 }
 }
 /* End of header css  */
+.intro-section {
+margin-top: 2%;
+background-image: url('../image/intro-sectionimage/background/bg.png');
+background-size:cover ;
+background-position: center;
+height: 600px;
+}
+
+.intro-section .row div {
+width:50%;
+
+}
+.intro-section .left-half{
+    text-align: center;
+} 
+.intro-section .left-half img {
+    width: 100%;
 
 
-
+}
 
 
 
