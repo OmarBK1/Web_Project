@@ -2,19 +2,13 @@
 header{
  font-family:var( --mainFont);
  padding: 10px 10px;
-<<<<<<< HEAD
  box-shadow: 1px -1px 20px 0px var(--subcolor);}
 header .row div{
-=======
- box-shadow: 1px -1px 20px 0px var(--subcolor);;
- .row div{
->>>>>>> Omar
 width: 30%;
 text-align: center;
 
  }
 
-<<<<<<< HEAD
 header .logo  img {
 width: 20%;
 }
@@ -33,29 +27,10 @@ font-weight: 600;
 }
 
  header .headericon{
-=======
-.logo  img {
-width: 20%;
-}
-
-
- .navbar ul{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-gap: 10px;
-
-a:hover{
-font-weight: 600;
-}
- }
-.headericon{
->>>>>>> Omar
 display: flex;
 justify-content: center;
  gap:10px;
  }
-<<<<<<< HEAD
 @media screen and (max-width:987px) {
 header .container{
 width: calc( 100% - 40px);
@@ -97,8 +72,246 @@ width: 50%;
 }
 }
 
-=======
+/*---------------------Omar---------------------*/
 
-
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11,
+.card12,
+.card13,
+.card14,
+.card15 {
+  width: 12.5em;
+  border: 0.08em solid black;
+  padding: 1em;
+  text-align: center;
+  font-family: sans-serif;
+  background: white;
+  flex: 0 0 auto;
+  margin-right: 1rem;
 }
->>>>>>> Omar
+
+.card1 h3,
+.card2 h3,
+.card3 h3,
+.card4 h3,
+.card5 h3,
+.card6 h3,
+.card7 h3,
+.card8 h3,
+.card9 h3,
+.card10 h3,
+.card11 h3,
+.card12 h3,
+.card13 h3,
+.card14 h3,
+.card15 h3 {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img,
+.card7 img,
+.card8 img,
+.card9 img,
+.card10 img,
+.card11 img,
+.card12 img,
+.card13 img,
+.card14 img,
+.card15 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.75em;
+}
+
+.card1 .author,
+.card2 .author,
+.card3 .author,
+.card4 .author,
+.card5 .author,
+.card6 .author,
+.card7 .author,
+.card8 .author,
+.card9 .author,
+.card10 .author,
+.card11 .author,
+.card12 .author,
+.card13 .author,
+.card14 .author,
+.card15 .author {
+  color: #868686;
+  font-size: 0.875em;
+  margin-bottom: 0.25em;
+}
+
+.card1 .genres,
+.card2 .genres,
+.card3 .genres,
+.card4 .genres,
+.card5 .genres,
+.card6 .genres,
+.card7 .genres,
+.card8 .genres,
+.card9 .genres,
+.card10 .genres,
+.card11 .genres,
+.card12 .genres,
+.card13 .genres,
+.card14 .genres,
+.card15 .genres {
+  color: #066969;
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+.card1 .price,
+.card2 .price,
+.card3 .price,
+.card4 .price,
+.card5 .price,
+.card6 .price,
+.card7 .price,
+.card8 .price,
+.card9 .price,
+.card10 .price,
+.card11 .price,
+.card12 .price,
+.card13 .price,
+.card14 .price,
+.card15 .price {
+  font-size: 0.9em;
+  margin-bottom: 0.6em;
+}
+
+.card1 .price .current,
+.card2 .price .current,
+.card3 .price .current,
+.card4 .price .current,
+.card5 .price .current,
+.card6 .price .current,
+.card7 .price .current,
+.card8 .price .current,
+.card9 .price .current,
+.card10 .price .current,
+.card11 .price .current,
+.card12 .price .current,
+.card13 .price .current,
+.card14 .price .current,
+.card15 .price .current {
+  color: black;
+  font-weight: bold;
+  margin-right: 0.375em;
+}
+
+.card1 .price .original,
+.card2 .price .original,
+.card3 .price .original,
+.card4 .price .original,
+.card5 .price .original,
+.card6 .price .original,
+.card7 .price .original,
+.card8 .price .original,
+.card9 .price .original,
+.card10 .price .original,
+.card11 .price .original,
+.card12 .price .original,
+.card13 .price .original,
+.card14 .price .original,
+.card15 .price .original {
+  font-size: 0.8em;
+  text-decoration: line-through;
+  color: #a7a5a5;
+  position: relative;
+  top: 0.2em;
+}
+
+.card1 .learn-more,
+.card2 .learn-more,
+.card3 .learn-more,
+.card4 .learn-more,
+.card5 .learn-more,
+.card6 .learn-more,
+.card7 .learn-more,
+.card8 .learn-more,
+.card9 .learn-more,
+.card10 .learn-more,
+.card11 .learn-more,
+.card12 .learn-more,
+.card13 .learn-more,
+.card14 .learn-more,
+.card15 .learn-more {
+  border: 0.0625em solid #066969;
+  background: none;
+  color: black;
+  padding: 0.375em 0.75em;
+  cursor: pointer;
+}
+
+.card1 .learn-more:hover,
+.card2 .learn-more:hover,
+.card3 .learn-more:hover,
+.card4 .learn-more:hover,
+.card5 .learn-more:hover,
+.card6 .learn-more:hover,
+.card7 .learn-more:hover,
+.card8 .learn-more:hover,
+.card9 .learn-more:hover,
+.card10 .learn-more:hover,
+.card11 .learn-more:hover,
+.card12 .learn-more:hover,
+.card13 .learn-more:hover,
+.card14 .learn-more:hover,
+.card15 .learn-more:hover {
+  background: #066969;
+  color: white;
+}
+
+.cards-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 1em;
+  gap: 0.625em;
+}
+
+/* WebKit browsers (Chrome, Edge, Safari) */
+.cards-container::-webkit-scrollbar {
+  height: 0.3125em;
+}
+
+.cards-container::-webkit-scrollbar-track {
+  background-color: #bebdbd;
+  border-radius: 3em;
+}
+
+.cards-container::-webkit-scrollbar-thumb {
+  background-color: #066969;
+  border-radius: 3em;}
+
+
+.Books {
+  margin: 0;
+  padding: 1em;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.Books h1 {
+  color: black;
+  text-align: center;
+}
+
+
