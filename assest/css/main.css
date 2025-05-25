@@ -83,16 +83,28 @@ height: 600px;
 
 .intro-section .row div {
 width:50%;
+}
+.intro-section .right-half {
+display: flex;
+flex-direction: column;
+gap:46px;
+      
+}
+.intro-section .right-half .welcome p {
+    font-family: var(--subFont);
+font-size: 50px;
+font-weight: 700;
+text-transform: uppercase;
 
 }
-.intro-section .left-half{
-    text-align: center;
-} 
-.intro-section .left-half img {
-    width: 100%;
-
+.intro-section .right-half .welcome p span {
+color: var(--subcolor) ;
+}
+.intro-section .right-half .description {
+width: 70%;
 
 }
+
 
 
 
