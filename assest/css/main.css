@@ -2,7 +2,8 @@
 header{
  font-family:var( --mainFont);
  padding: 10px 10px;
- box-shadow: 1px -1px 20px 0px var(--subcolor);}
+ box-shadow: 1px -1px 20px 0px var(--subcolor);
+}
 header .row div{
 width: 30%;
 text-align: center;
@@ -71,6 +72,32 @@ width: 30%;
 width: 50%;
 }
 }
+/* End of header css  */
+.intro-section {
+margin-top: 2%;
+background-image: url('../image/intro-sectionimage/background/bg.png');
+background-size:cover ;
+background-position: center;
+height: 600px;
+}
+
+.intro-section .row div {
+width:50%;
+
+}
+.intro-section .left-half{
+    text-align: center;
+} 
+.intro-section .left-half img {
+    width: 100%;
+
+
+}
+
+
+
+
+
 
 /*---------------------Omar---------------------*/
 #Featured , #Arrivals {
