@@ -73,6 +73,19 @@ width: 50%;
 }
 
 /*---------------------Omar---------------------*/
+#Featured , #Arrivals {
+  padding: 1em;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+#Featured h1 , #Arrivals h1 {
+  color: black;
+  text-align: center;
+  font-size: 3.5em;
+  margin: 0.5em;
+  
+}
 
 .card1,
 .card2,
@@ -90,7 +103,7 @@ width: 50%;
 .card14,
 .card15 {
   width: 12.5em;
-  border: 0.08em solid black;
+  border: 0.12em solid black;
   padding: 1em;
   text-align: center;
   font-family: sans-serif;
@@ -133,9 +146,12 @@ width: 50%;
 .card13 img,
 .card14 img,
 .card15 img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 0.75em;
+  width: auto;
+  height: 15em;
+  box-sizing: border-box;
+  padding-left: 1em;
+  padding-right: 1em;
+  
 }
 
 .card1 .author,
@@ -154,7 +170,7 @@ width: 50%;
 .card14 .author,
 .card15 .author {
   color: #868686;
-  font-size: 0.875em;
+  font-size: 0.8em;
   margin-bottom: 0.25em;
 }
 
@@ -214,7 +230,6 @@ width: 50%;
 .card15 .price .current {
   color: black;
   font-weight: bold;
-  margin-right: 0.375em;
 }
 
 .card1 .price .original,
@@ -254,11 +269,10 @@ width: 50%;
 .card13 .learn-more,
 .card14 .learn-more,
 .card15 .learn-more {
-  border: 0.0625em solid #066969;
+  border: 0.133em solid #066969;
   background: none;
   color: black;
-  padding: 0.375em 0.75em;
-  cursor: pointer;
+  padding: 0.8em 1.2em;
 }
 
 .card1 .learn-more:hover,
@@ -285,6 +299,7 @@ width: 50%;
   overflow-x: auto;
   padding: 1em;
   gap: 0.625em;
+  margin-bottom: 7em;
 }
 
 /* WebKit browsers (Chrome, Edge, Safari) */
@@ -295,23 +310,124 @@ width: 50%;
 .cards-container::-webkit-scrollbar-track {
   background-color: #bebdbd;
   border-radius: 3em;
+
 }
 
 .cards-container::-webkit-scrollbar-thumb {
   background-color: #066969;
-  border-radius: 3em;}
+  border-radius: 3em;
+}
 
 
-.Books {
-  margin: 0;
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 4em;
+  justify-items: center;
+}
+
+/* For IPhone X */
+@media (min-width: 340px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* For Computers */
+@media (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+
+.new1,
+.new2,
+.new3,
+.new4,
+.new5,
+.new6,
+.new7,
+.new8,
+.new9,
+.new10 {
+  width: 12.5em;
+  border: 0.12em solid black;
   padding: 1em;
-  font-family: Arial, sans-serif;
+  text-align: center;
   background-color: white;
 }
 
-.Books h1 {
-  color: black;
-  text-align: center;
+.new1 img.book,
+.new2 img.book,
+.new3 img.book,
+.new4 img.book,
+.new5 img.book,
+.new6 img.book,
+.new7 img.book,
+.new8 img.book,
+.new9 img.book,
+.new10 img.book {
+  width: auto;
+  height: 15em;
+  box-sizing: border-box;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+
 }
 
+.new1 .title,
+.new2 .title,
+.new3 .title,
+.new4 .title,
+.new5 .title,
+.new6 .title,
+.new7 .title,
+.new8 .title,
+.new9 .title,
+.new10 .title {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #333;
+}
 
+.new1 .stars,
+.new2 .stars,
+.new3 .stars,
+.new4 .stars,
+.new5 .stars,
+.new6 .stars,
+.new7 .stars,
+.new8 .stars,
+.new9 .stars,
+.new10 .stars {
+  margin-top: 0.5em;
+}
+
+.new1 .stars img,
+.new2 .stars img,
+.new3 .stars img,
+.new4 .stars img,
+.new5 .stars img,
+.new6 .stars img,
+.new7 .stars img,
+.new8 .stars img,
+.new9 .stars img,
+.new10 .stars img {
+  width: 100%;
+  max-width: 6em;
+  height: auto;
+}
+
+.learn-more2 {
+  border: 0.133em solid #066969;
+  background: none;
+  color: black;
+  padding: 0.8em 1.2em;
+}
+
+.learn-more2:hover {
+  background: #066969;
+  color: white;
+}
