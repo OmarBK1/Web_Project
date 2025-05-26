@@ -278,8 +278,46 @@ font-family: var(--subFont);
 width: 20%;
 
 }
+@media screen and (max-width:1030px ) {
+.about-section .lower-half .about-right  .learnbotton {
+  width: 40%;
+}
+
+}
+@media screen and (max-width:415px )
+{ 
 
 
+
+  .about-section .container {
+    width: 100%;
+  }
+  .about-section .lower-half {
+    margin-top: 2em;
+  }
+.about-section .lower-half .row {
+flex-direction: column;
+
+}
+.about-section .lower-half .row > div
+{
+width: 65%;
+}
+.about-section .lower-half .about-right {
+  width: 100%;
+gap:1.5em;
+text-align: center;
+align-items: center;
+}
+.about-section .lower-half .about-right .description p{
+  width: 20em;
+}
+.about-section .lower-half .about-right  .learnbotton {
+  width: 50%;
+  text-align: center;
+}
+}
+/* ----------------------------------------end of About-section lower-half css ------------------------------ */
 /*---------------------Omar---------------------*/
 #Featured,
 #Arrivals {
