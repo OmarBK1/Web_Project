@@ -120,7 +120,7 @@ width: 70%;
 
 }
 
-.intro-section .left-half .learnbotton {
+ .learnbotton {
     width: 15%;
     font-size: small;
     font-family: var(--subFont);
@@ -158,7 +158,7 @@ align-items: flex-start;
 .intro-section .left-half {
 width: 100%;
 }
-.intro-section .left-half .learnbotton {
+ .learnbotton {
   font-size: large;
 
 
@@ -199,12 +199,11 @@ width: 100%;
 }
 /* ----------------------------------------End of intro-section css ------------------------------ */
 
-.about-section{
+.about-section .upper-half{
 height: 19em;
 
 }
 .about-section .container,
-.about-section .container .upper-half ,
 .about-section .container .upper-half .row{
   height: 100%;
 }
@@ -253,6 +252,32 @@ font-size: 2em;
 }
 
 /* ----------------------------------------End of About-section upper-half css ------------------------------ */
+/* ----------------------------------------Start of About-section lower-half css ------------------------------ */
+.about-section .lower-half .row > div {
+  width: 45%;
+}
+
+
+.about-section .lower-half .about-photo img {
+width: 100%;
+height: auto;
+}
+.about-section .lower-half .about-right {
+display: flex;
+flex-direction: column;
+gap:3em;
+
+}
+.about-section .lower-half .about-right .about-us p {
+font-size: 2em;
+font-weight: 700;
+font-family: var(--subFont);
+
+}
+.about-section .lower-half .about-right  .learnbotton{
+width: 20%;
+
+}
 
 
 /*---------------------Omar---------------------*/
@@ -526,7 +551,7 @@ font-size: 2em;
 }
 
 /* For IPad Pro  */
-@media (min-width: 1024px) and (max-width: 1879px) {
+@media (min-width: 1024px) and (max-width: 1400px) {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -538,7 +563,7 @@ font-size: 2em;
 
 
 /* For Desktop */
-@media (min-width: 1880px) {
+@media (min-width: 1450px) {
   .gallery {
     grid-template-columns: repeat(5, 1fr);
   }
