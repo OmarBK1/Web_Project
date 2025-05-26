@@ -213,12 +213,20 @@ height: 19em;
   justify-content: space-around;
 }
 .about-section .upper-half .row > div {
-height:80% ;
+height:50% ;
 width: 20%;
 display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
+justify-content: center;
+gap: 1em;
+box-shadow: 0em 0em 0.5em 0em var(--subcolor);
+}
+.about-section .upper-half .row > div i {
+color: var(--subcolor);
+font-size: 2em;
+
 }
 
 
