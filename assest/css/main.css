@@ -20,7 +20,6 @@ display: none;
  header .navbar ul{
 display: flex;
 justify-content: space-between;
-
 gap: 10px;
  }
  header .navbar ul a:hover{
@@ -43,7 +42,7 @@ header .menubotton{
     order:1;
 
 }
- .navbar ,.navbar ul{
+ .navbar {
     display: none;
  }   
 
@@ -73,28 +72,42 @@ width: 50%;
 }
 }
 /* End of header css  */
+
+
 .intro-section {
 margin-top: 2%;
 background-image: url('../image/intro-sectionimage/background/bg.png');
-background-size:cover ;
+background-size: cover ;
 background-position: center;
 height: 600px;
 }
-
-.intro-section .row div {
-width:50%;
+.intro-section .container{
+  height: 100%;
 }
+.intro-section .row{
+  height: 100%;
+
+
+}
+
+
 .intro-section .right-half {
+  margin-top: 10%;
+  width:50%;
+height: 100%;
 display: flex;
 flex-direction: column;
-gap:46px;
+
+gap:40px;
       
 }
+
 .intro-section .right-half .welcome p {
     font-family: var(--subFont);
 font-size: 50px;
 font-weight: 700;
 text-transform: uppercase;
+
 
 }
 .intro-section .right-half .welcome p span {
@@ -104,6 +117,31 @@ color: var(--subcolor) ;
 width: 70%;
 
 }
+.intro-section .right-half .learnbotton {
+    width: 15%;
+    font-size: small;
+    font-family: var(--subFont);
+    text-align: center;
+    padding: 7px 10px;
+display: inline-block ;
+
+background-color: var(--subcolor);
+color: white;
+border:solid var(--subcolor) ;
+
+
+}
+.intro-section .left-half{
+ 
+  width:50%;
+height: 100%;
+} 
+.intro-section .left-half img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
 
 
 
@@ -335,7 +373,7 @@ width: 70%;
 
 .cards-container {
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   padding: 1em;
   gap: 0.625em;
   margin-bottom: 7em;
