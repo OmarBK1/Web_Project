@@ -208,7 +208,7 @@ height: 19em;
 .about-section .container .upper-half .row{
   height: 100%;
 }
-.about-section .upper-half .row {
+.about-section .container .upper-half .row {
   flex-wrap: nowrap;
   justify-content: space-around;
 }
@@ -228,9 +228,31 @@ color: var(--subcolor);
 font-size: 2em;
 
 }
+@media screen and (max-width:800px )
+{
+ .about-section .container .upper-half .row {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .about-section .upper-half .row > div{
+    width: 30%;
+  }
+
+}
+@media screen and (max-width:570px)
+{
+  .about-section .container {
+ width: calc( 100% - 40px );
+
+  }
+ .about-section .upper-half .row > div{
+    width: 45%;
+  }
 
 
+}
 
+/* ----------------------------------------End of About-section upper-half css ------------------------------ */
 
 
 /*---------------------Omar---------------------*/
