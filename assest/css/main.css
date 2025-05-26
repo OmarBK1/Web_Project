@@ -99,7 +99,7 @@ display: flex;
 flex-direction: column;
 
 gap:40px;
-      
+
 }
 
 .intro-section .left-half .welcome p {
@@ -135,7 +135,7 @@ border:solid var(--subcolor) ;
 
 }
 .intro-section .right-half{
- 
+
   width:50%;
 height: 100%;
 } 
@@ -160,7 +160,7 @@ width: 100%;
 }
 .intro-section .left-half .learnbotton {
   font-size: large;
-  
+
 
 }
 }
@@ -177,14 +177,14 @@ width: 100%;
 }
 .intro-section .left-half .learnbotton {
   width: 35%;
-  
+
 
 }
 
 
 }
 @media screen and (max-width: 465px) {
- 
+
 .intro-section .container {
   width: 100%;
 
@@ -267,6 +267,7 @@ font-size: 2em;
   color: black;
   text-align: center;
   font-size: 2.5em;
+  margin: 0.5em;
   margin: 1em 0 ;
 
 }
@@ -288,8 +289,10 @@ font-size: 2em;
 .card15 {
   border: 0.12em solid black;
   padding: 1em;
+  margin-right: 3.8em;
   margin: 0;
   text-align: center;
+  align-items: center;
   font-family: var(--mainFont);
   background: white;
   flex-grow: 1;
@@ -483,6 +486,7 @@ font-size: 2em;
   display: flex;
   overflow-x: scroll;
   padding: 1em;
+  gap: 0.625em;
   gap: 2.5em;
   margin-bottom: 7em;
   margin-top: 0;
@@ -496,6 +500,7 @@ font-size: 2em;
 .cards-container::-webkit-scrollbar-track {
   background-color: #bebdbd;
   border-radius: 3em;
+
   margin: 2em 2em 0 2em;
 }
 
@@ -631,5 +636,3 @@ font-size: 2em;
   background: var(--subcolor);
   color: white;
 } 
-
-/*---------------------End of Omar---------------------*/
