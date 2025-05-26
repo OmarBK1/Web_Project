@@ -267,7 +267,7 @@ font-size: 2em;
   color: black;
   text-align: center;
   font-size: 2.5em;
-  margin: 0.5em;
+  margin: 1em 0 ;
 
 }
 
@@ -288,13 +288,13 @@ font-size: 2em;
 .card15 {
   border: 0.12em solid black;
   padding: 1em;
-  margin-right: 3.8em;
+  margin: 0;
   text-align: center;
-  align-items: center;
   font-family: var(--mainFont);
   background: white;
   flex-grow: 1;
   flex-basis: auto;
+  box-sizing: border-box;
 }
 
 .card1 h3,
@@ -483,8 +483,9 @@ font-size: 2em;
   display: flex;
   overflow-x: scroll;
   padding: 1em;
-  gap: 0.625em;
+  gap: 2.5em;
   margin-bottom: 7em;
+  margin-top: 0;
 }
 
 /* WebKit browsers (Chrome, Edge, Safari) */
@@ -495,7 +496,7 @@ font-size: 2em;
 .cards-container::-webkit-scrollbar-track {
   background-color: #bebdbd;
   border-radius: 3em;
-
+  margin: 2em 2em 0 2em;
 }
 
 .cards-container::-webkit-scrollbar-thumb {
