@@ -256,18 +256,19 @@ font-size: 2em;
 
 
 /*---------------------Omar---------------------*/
-#Featured , #Arrivals {
-  padding: 1em;
+#Featured,
+#Arrivals {
   font-family: var(--mainFont);
   background-color: white;
 }
 
-#Featured h1 , #Arrivals h1 {
+#Featured>h1,
+#Arrivals>h1 {
   color: black;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 2.5em;
   margin: 0.5em;
-  
+
 }
 
 .card1,
@@ -285,14 +286,15 @@ font-size: 2em;
 .card13,
 .card14,
 .card15 {
-  width: auto;
   border: 0.12em solid black;
   padding: 1em;
+  margin-right: 3.8em;
   text-align: center;
+  align-items: center;
   font-family: var(--mainFont);
   background: white;
-  flex: 1 0 auto;
-  margin-right: 2em;
+  flex-grow: 1;
+  flex-basis: auto;
 }
 
 .card1 h3,
@@ -334,7 +336,7 @@ font-size: 2em;
   box-sizing: border-box;
   padding-left: 1em;
   padding-right: 1em;
-  
+
 }
 
 .card1 .author,
@@ -517,11 +519,22 @@ font-size: 2em;
   }
 }
 
-/* For IPad Pro  */      
-@media (min-width: 1024px) {
+/* For IPad Pro  */
+@media (min-width: 1024px) and (max-width: 1879px) {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
+  }
 
+  .gallery .last {
+    grid-column: 1 / -1;
+  }
+}
+
+
+/* For Desktop */
+@media (min-width: 1880px) {
+  .gallery {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
@@ -542,9 +555,7 @@ font-size: 2em;
   background-color: white;
 }
 
-.last {
-  grid-column: 1 / -1;
-}
+
 
 
 .new1 img.book,
@@ -618,4 +629,6 @@ font-size: 2em;
 .learn-more2:hover {
   background: var(--subcolor);
   color: white;
-}
+} 
+
+/*---------------------End of Omar---------------------*/
