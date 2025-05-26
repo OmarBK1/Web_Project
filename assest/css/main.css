@@ -1,8 +1,12 @@
 @import './base.css';
+
 header{
  font-family:var( --mainFont);
  padding: 10px 10px;
  box-shadow: 1px -1px 20px 0px var(--subcolor);
+position: sticky;
+top: 0px;
+background-color: white;
 }
 header .row div{
 width: 30%;
@@ -318,6 +322,61 @@ align-items: center;
 }
 }
 /* ----------------------------------------end of About-section lower-half css ------------------------------ */
+
+/* ----------------------------------------start of Digital-Bokk-section lower-half css ------------------------------ */
+.digital-book {
+margin: 3.5em 0;
+
+}
+
+
+
+.digital-book img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.d-book {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+ .digital-book .learnbotton{
+  
+  
+    border: none;
+
+    position: absolute;
+    bottom: 25%;
+    left: 7%;
+
+}
+
+@media screen and (max-width:415px ) {
+
+.digital-book .learnbotton {
+bottom: 14%;
+      left: 7%;
+        width: 13%;
+        font-size: 0.2em;
+
+}
+
+}
+
+/* ----------------------------------------End of Digital-Bokk-section lower-half css ------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------Omar---------------------*/
 #Featured,
 #Arrivals {
