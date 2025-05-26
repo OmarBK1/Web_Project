@@ -199,8 +199,27 @@ width: 100%;
 }
 /* ----------------------------------------End of intro-section css ------------------------------ */
 
+.about-section{
+height: 19em;
 
-
+}
+.about-section .container,
+.about-section .container .upper-half ,
+.about-section .container .upper-half .row{
+  height: 100%;
+}
+.about-section .upper-half .row {
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.about-section .upper-half .row > div {
+height:80% ;
+width: 20%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
 
 
 
